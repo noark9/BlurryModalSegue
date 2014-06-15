@@ -1,3 +1,3 @@
 platform :ios, '7.0'
 
-pod 'BlurryModalSegue', :git=> 'https://github.com/noark9/BlurryModalSegue.git', :commit => '03c03698f3ad61852d3ed55dc4b253c5ea0d12e9'
+pod 'BlurryModalSegue', :git=> 'https://github.com/noark9/BlurryModalSegue.git', :commit => 'e034dbcc5abdac6c7fc0f63dcedf1bccdf59f9b6'
