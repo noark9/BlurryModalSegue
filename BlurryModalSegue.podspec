@@ -19,6 +19,5 @@ Pod::Spec.new do |s|
   s.requires_arc  = true
   s.dependency 'UIImage+BlurredFrame', '~> 0.0.4'
   s.dependency 'MZAppearance', '~>1.1.1'
-  s.dependency 'FXBlurView', :git => 'https://github.com/noark9/FXBlurView.git'
 
 end
