@@ -43,7 +43,7 @@ static UIImageOrientation ImageOrientationFromInterfaceOrientation(UIInterfaceOr
     if (self)
     {
         // Some sane defaults
-        self.backingImageBlurRadius = @(20);
+        self.backingImageBlurRadius = @(15);
         self.backingImageSaturationDeltaFactor = @(.45f);
 
         [[[self class] appearance] applyInvocationTo:self];
@@ -76,7 +76,7 @@ static UIImageOrientation ImageOrientationFromInterfaceOrientation(UIInterfaceOr
     else
     {
         snapshot = [snapshot blurredImageWithRadius:self.backingImageBlurRadius.doubleValue
-                                         iterations:self.backingImageSaturationDeltaFactor.doubleValue
+                                         iterations:3
                                           tintColor:self.backingImageTintColor];
     }
 
